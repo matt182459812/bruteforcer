@@ -40,6 +40,6 @@ def get_password(password):
 start_time = time.time()
 
 # Find the password
-print(get_password('vale'))
+print(get_password('')) #Insert the passord in the ''
 # Print the time it took
 print(round(time.time() - start_time, 2), 's')
